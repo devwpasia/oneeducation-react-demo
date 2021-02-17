@@ -4,7 +4,7 @@ import category from "../pages/category/[id]"
 const Course = ({course}) => {
     
     return (
-        <div className='col-4 align-items-stretch my-3'>
+        <div className='col-12 col-md-4 align-items-stretch my-3'>
             <div className="card h-100">
                 <img src={course.thumbnail_url} alt={course.post_title} className="card-img-top"/>
                 <div className="card-body">
